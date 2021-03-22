@@ -1,8 +1,8 @@
 # 使用Github加速静态资源
 
-局域网仓库：http://192.168.3.238/mtcat/cdncd
+同步到线上仓库：https://github.com/cdncd/cdn.git
 
-同步到线上仓库：https://github.com/cdncd
+注：显示仓库的仓库名为：cdn
 
 静态加速地址格式：
 1. 直接引用：https://cdn.jsdelivr.net/gh/<用户名>/<仓库名>/<文件及路径>
