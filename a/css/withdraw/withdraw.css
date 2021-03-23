@@ -1,0 +1,20 @@
+*{font-size: .28rem; padding: 0; margin: 0;}
+body{background-color: #F5F5F5;}
+
+.flex-center{display: flex; justify-content: center; align-items: center;}
+
+.keyValue{display: flex;}
+.keyValue .key{width: 1.6rem; flex-shrink: 0;}
+.keyValue .value{flex-grow:1; flex-shrink:1; flex-basis:0;}
+
+.footer-submit{position: fixed; bottom: .3rem; width: 100%; z-index: 2;}
+
+/* 空 */
+.no-account{width: 100%; height: 100%; position: fixed; top: 0; left: 0; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.no-account > p{line-height: 1.2rem; color: #6EB3FF;}
+
+
+.color-primary{color: #6EB3FF}
+.color-success{color: #63BC0A}
+.color-error{color: #DE2E1D}
+.color-gray{color: #999}

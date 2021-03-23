@@ -1,0 +1,83 @@
+*,p,header,nav,a,span,i,footer,div,ul,li,button,img,menu{margin:0;padding:0;color:#000;outline:0;font-size:14px;border:0;}
+a{text-decoration:none;}
+ul,menu{list-style:none;}
+.font-sixteen{font-size:16px;}
+.font-gray{color:#999;}
+.btn-primary{background-color:#3ac8ae;color:#fff;border-radius:5px;padding:5px;}
+.college_title{width:100%;height:50px;line-height: 50px;border-bottom:1px solid #ededed;}
+.college_title i{padding-left:1rem;font-size:1.8em;vertical-align: middle;}
+.college_title input[type=text]{width:82vw;background-color:#eee;height:35px;font-size:16px;text-indent:15px;}
+.college_title input::-webkit-input-placeholder { text-align: center }
+.title{display:inline-block;text-align:center;width:80vw;font-size:1.6em;}
+.content{width:100%;overflow:hidden;}
+.speaker_list{width:100%;}
+/*.speaker_list li{float:left;width:49vw;text-align:center;margin-bottom:.5rem;height:232px;}*/
+.speaker_list li{float:left;width:49vw;text-align:center;margin-bottom:.5rem;}
+.speaker_list li:nth-child(2n){margin-left:1vw;}
+.pic img{width:100%;}
+.speaker_portrait{width:100%;margin-top:-31px;}
+.speaker_portrait img{border-radius: 50%;height:70px;width:70px;border:1px solid #fff;box-shadow:1px 1px 2px #999;}
+.speaker_name{line-height:23px;}
+.speaker_name p:first-child{font-weight:bold;}
+.subscribe{width:100%;line-height:24px;}
+.subscribe button.btn-primary{float:left;margin-left:10px;}
+.subscribe button.btn-delete{float:left;margin-left:5px;background-color:#989595;font-size:12px;border-radius:5px;padding:5px;}
+.update_time{float:right;font-size:12px;}
+footer a{display:inline-block;width:100%;text-align: center;color:#666;padding:10px 0;}
+.btn i{color:#fff;}
+/*course-list.html*/
+.banner img{width:100%;}
+.menu-list{width:100%;display:flex;height:50px;line-height:47px;border-bottom:1px solid #bfbfc5;}
+.menu-list li{flex:1;text-align:center;}
+.menu-list li span{display:inline-block;width:5rem;}
+.active{color:#3ac8ae;border-bottom:2px solid #3ac8ae;}
+.course-list li{width:100%;padding:.8rem .5rem;border-bottom:1px solid #bfbfc5;height:105px;overflow:hidden;}
+.course-info-wrapper{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.course-info{flex:1;}
+.course-info .person{width:85px;height:85px;border-radius:50%;float:left;}
+.info-time{float:left;padding:.6rem 0 0 1.2rem;line-height:25px;}
+.info-time p:first-child{color:#222121;font-weight:600;width:48vw;line-height:20px;}
+.subscribe-btn{float:left;text-align:center;height:100%;line-height:85px;}
+.info-time .number{width:15px;height:15px;}
+/*轮播*/
+.swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide img{width:100%;}
+/*chat.html*/
+.chating{width:100%;padding:1rem 2rem;}
+.chat-word{width:60vw;background-color:#3ac8ae;padding:1.5rem .6rem 1.5rem 1.5rem;border-radius:10%;line-height:22px;position: relative;min-height:45px;}
+.chat-word:after,.chat-voice:after{content:"";border-right:21px solid #3ac8ae;border-top: 12px solid transparent;border-bottom:12px solid transparent;position:absolute;top:11px;left:-17px;}
+.chat-img{margin-top:2rem;}
+.chat-img img{border-radius:10%;width:50vw;}
+.chat-voice{width:60vw;height:45px;background-color:#3ac8ae;margin-top:2rem;position:relative;border-radius:10px;}
+.chat-video{width:60vw;margin-top:2rem;position:relative;}
+.chat-video video{width:100%;border-radius:10%;}
+.chat-video .player{background:url(../images/player.png) no-repeat center center;height:100%;width:100%;position: absolute;top:0;left:0;background-size:50px 50px;}
+@media screen and (max-width:320px){
+	.speaker_list li{}
+	.subscribe button.btn-primary,.subscribe button.btn-delete{font-size:12px;padding:3px;}
+	.subscribe i{font-size:12px;}
+	.update_time{font-size:9px;transform:scale(0.75);margin-right:-10px;}
+}
+
+

@@ -1,0 +1,601 @@
+﻿body, p {
+    font-size: 0.9rem;
+}
+select {
+    -webkit-appearance: menulist;
+    appearance: menulist;
+    -moz-appearance: menulist;
+}
+input, select, textarea {
+    font-size: 0.9rem;
+}
+
+.mui-views,
+.mui-view,
+.mui-pages,
+.mui-page,
+.mui-page-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #efeff4;
+}
+
+.mui-bar-nav ~ .mui-pages {
+    padding-top: 44px;
+}
+
+.mui-pages {
+    top: 46px;
+    height: auto;
+}
+
+
+.mui-input-row {
+    height: 35px;
+    line-height: 35px;
+}
+
+    .mui-input-row label {
+        height: 30px;
+        line-height: 30px;
+        padding: 5px 15px;
+    }
+
+.mui-input-group input, .mui-input-group textarea {
+    height: 30px;
+    line-height: 30px;
+}
+
+.mui-content-padded a {
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-clip: padding-box;
+}
+
+.bar-nav-top {
+    top: 46px;
+}
+
+
+
+.mt-flex-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.mt-flex-row {
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+}
+
+.mt-flex-row2 {
+    flex: 2;
+    -webkit-flex: 2;
+    -moz-box-flex: 3;
+}
+
+.mt-flex-row3 {
+    flex: 3;
+    -webkit-flex: 3;
+    -moz-box-flex: 3;
+}
+
+.mt-flex-row4 {
+    flex: 4;
+    -webkit-flex: 4;
+    -moz-box-flex: 4;
+}
+
+.mt-flex-row5 {
+    flex: 5;
+    -webkit-flex: 5;
+    -moz-box-flex: 4;
+}
+
+.mt-flex-row6 {
+    flex: 6;
+    -webkit-flex: 6;
+    -moz-box-flex: 6;
+}
+
+.mt-flex-row7 {
+    flex: 7;
+    -webkit-flex: 7;
+    -moz-box-flex: 7;
+}
+
+.mt-flex-row8 {
+    flex: 8;
+    -webkit-flex: 8;
+    -moz-box-flex: 8;
+}
+
+.mt-flex-row9 {
+    flex: 9;
+    -webkit-flex: 9;
+    -moz-box-flex: 9;
+}
+
+.mt-flex-row10 {
+    flex: 10;
+    -webkit-flex: 10;
+    -moz-box-flex: 10;
+}
+
+.mt-flex-row11 {
+    flex: 11;
+    -webkit-flex: 11;
+    -moz-box-flex: 11;
+}
+
+.mt-flex-row12 {
+    flex: 12;
+    -webkit-flex: 12;
+    -moz-box-flex: 12;
+}
+
+
+.mt-numbox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 120px;
+    height: 35px;
+    padding: 0 40px 0 40px;
+    vertical-align: top;
+    vertical-align: middle;
+    border: solid 1px #bbb;
+    border-radius: 3px;
+    background-color: #efeff4;
+}
+
+    .mt-numbox [class*=numbox-btn], .mt-numbox [class*=btn-numbox] {
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 100%;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+        width: 40px;
+        height: 100%;
+        padding: 0;
+        color: #555;
+        border: none;
+        border-radius: 0;
+        background-color: #f9f9f9;
+    }
+
+        .mt-numbox [class*=numbox-btn]:active, .mt-numbox [class*=btn-numbox]:active {
+            background-color: #ccc;
+        }
+
+        .mt-numbox [class*=numbox-btn][disabled], .mt-numbox [class*=btn-numbox][disabled] {
+            color: #c0c0c0;
+        }
+
+    .mt-numbox .mt-numbox-btn-plus, .mt-numbox .mt-btn-numbox-plus {
+        right: 0;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .mt-numbox .mt-numbox-btn-minus, .mt-numbox .mt-btn-numbox-minus {
+        left: 0;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    .mt-numbox .mt-numbox-input, .mt-numbox .mt-input-numbox {
+        display: inline-block;
+        overflow: hidden;
+        width: 100% !important;
+        height: 100%;
+        margin: 0;
+        padding: 0 3px !important;
+        text-align: center;
+        text-overflow: ellipsis;
+        word-break: normal;
+        border: none !important;
+        border-right: solid 1px #ccc !important;
+        border-left: solid 1px #ccc !important;
+        border-radius: 0 !important;
+    }
+
+.mt-input-row .mt-numbox {
+    float: right;
+    margin: 2px 8px;
+}
+
+#jingle_popup_mask {
+    display: none;
+    position: fixed;
+    z-index: 10002;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#jingle_popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10003;
+    min-height: 50px;
+}
+
+    #jingle_popup.loading {
+        background-color: rgba(255, 255, 255, 0.20);
+        opacity: .9;
+    }
+
+        #jingle_popup .loading p {
+            color: #000000;
+        }
+
+    #jingle_popup.loading {
+        top: 50%;
+        left: 50%;
+        margin: -75px 0 0 -75px;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+        #jingle_popup.loading i.fa {
+            font-size: 4em;
+            line-height: 110px;
+            margin: 0;
+        }
+
+@-webkit-keyframes rotate-animation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-animation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes move-animation {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    25% {
+        -webkit-transform: translate(-48px, 0);
+        transform: translate(-48px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate(24px, 0);
+        transform: translate(24px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+@-webkit-keyframes move-animation {
+    0% {
+        -webkit-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+}
+
+@keyframes move-animation {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    25% {
+        -webkit-transform: translate(-48px, 0);
+        transform: translate(-48px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate(24px, 0);
+        transform: translate(24px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.circle-loader {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-left: -20px;
+    margin-top: -24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform-origin: 16px 16px;
+    transform-origin: 16px 16px;
+    -webkit-animation: rotate-animation 5s infinite;
+    animation: rotate-animation 5s infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+    .circle-loader .circle {
+        -webkit-animation: move-animation 2.5s infinite;
+        animation: move-animation 2.5s infinite;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    .circle-loader .circle-line {
+        width: 48px;
+        height: 24px;
+        position: absolute;
+        top: 4px;
+        left: 0;
+        -webkit-transform-origin: 4px 4px;
+        transform-origin: 4px 4px;
+    }
+
+        .circle-loader .circle-line:nth-child(0) {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        .circle-loader .circle-line:nth-child(1) {
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        .circle-loader .circle-line:nth-child(2) {
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        .circle-loader .circle-line:nth-child(3) {
+            -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+
+        .circle-loader .circle-line .circle:nth-child(1) {
+            width: 8px;
+            height: 8px;
+            top: 50%;
+            left: 50%;
+            margin-top: -4px;
+            margin-left: -4px;
+            border-radius: 4px;
+            -webkit-animation-delay: -0.3s;
+            animation-delay: -0.3s;
+        }
+
+        .circle-loader .circle-line .circle:nth-child(2) {
+            width: 16px;
+            height: 16px;
+            top: 50%;
+            left: 50%;
+            margin-top: -8px;
+            margin-left: -8px;
+            border-radius: 8px;
+            -webkit-animation-delay: -0.6s;
+            animation-delay: -0.6s;
+        }
+
+        .circle-loader .circle-line .circle:nth-child(3) {
+            width: 24px;
+            height: 24px;
+            top: 50%;
+            left: 50%;
+            margin-top: -12px;
+            margin-left: -12px;
+            border-radius: 12px;
+            -webkit-animation-delay: -0.9s;
+            animation-delay: -0.9s;
+        }
+
+    .circle-loader .circle-blue {
+        background-color: rgba(31, 78, 90, 0.80);
+    }
+
+    .circle-loader .circle-red {
+        background-color: rgba(255, 89, 85, 0.80);
+    }
+
+    .circle-loader .circle-yellow {
+        background-color: rgba(255, 178, 101, 0.80);
+    }
+
+    .circle-loader .circle-green {
+        background-color: rgba(0, 166, 145, 0.80);
+    }
+
+#preloader {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+    #preloader span {
+        position: absolute;
+        width: 1.2rem;
+        height: 1.2rem;
+        background: rgba(251, 16, 10, 0.90);
+        border-radius: 50%;
+        animation: bounce 1s infinite linear;
+        -webkit-animation: bounce 1s infinite linear;
+        -moz-animation: bounce 1s infinite linear;
+    }
+
+        #preloader span:nth-child(1) {
+            left: 0px;
+            animation-delay: 0s;
+            -webkit-animation-delay: 0s;
+            -moz-animation-delay: 0s;
+        }
+
+        #preloader span:nth-child(2) {
+            left: 20px;
+            animation-delay: 0.25s;
+            -webkit-animation-delay: 0.25s;
+            -moz-animation-delay: 0.25s;
+        }
+
+        #preloader span:nth-child(3) {
+            left: 40px;
+            animation-delay: 0.5s;
+            -webkit-animation-delay: 0.5s;
+            -moz-animation-delay: 0.5s;
+        }
+
+        #preloader span:nth-child(4) {
+            left: 60px;
+            animation-delay: 0.75s;
+            -webkit-animation-delay: 0.75s;
+            -moz-animation-delay: 0.75s;
+        }
+
+        #preloader span:nth-child(5) {
+            left: 80px;
+            animation-delay: 1s;
+            -webkit-animation-delay: 1s;
+            -moz-animation-delay: 1s;
+        }
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        opacity: 0.3;
+    }
+
+    50% {
+        transform: translateY(-30px);
+        -webkit-transform: translateY(30px);
+        -moz-transform: translateY(30px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        opacity: 0.3;
+    }
+}
+
+/*完成按钮*/ 
+/*查看进货单按钮*/ 
+/*提交按钮*/ 
+.mt-btn-blue {
+    background-color: #5d7ef1;
+    color: #fff;
+}
+
+/*扫描按钮*/ 
+/*加入进货单按钮*/ 
+/*查看尺码库存按钮*/ 
+/*提交按钮*/
+/*添加按钮*/ 
+.mt-btn-orange {
+    background-color: #ffa64d;
+    color: #fff;
+}
+
+/*统一背景颜色*/ 
+.mt-badge01 {
+    color: #000;
+    background-color: #91bbd8;
+}
+.mt-badge02 {
+    color: #000;
+    background-color: #f19b5f;
+}
+
+/*未审核*/ 
+.mt-badge-gray {
+    color: #fff;
+    background-color: #999;
+}
+
+/*审核取消*/ 
+/*订单-审核失败*/
+/*代理取消*/
+/*审核失败*/ 
+.mt-badge-red {
+    color: #fff;
+    background-color: #f76260;
+}
+
+/*审核成功*/ 
+/*订单-调货审核成功*/ 
+/*充值*/
+.mt-badge-green {
+    color: #fff;
+    background-color: #09bb07;
+}
+
+/*消费、订单-调货消费*/ 
+.mt-badge-orange {
+    color: #fff;
+    background-color: #FFA64D;
+}
+
+/*订单-修改、订单-代理间发货*/
+/*总部修改*/ 
+.mt-badge-blue {
+    color: #fff;
+    background-color: #10aeff;
+}
+
+/*合计*/ 
+.mt-b-font {
+    color: #fff;
+}
+.mt-bar-bg {
+    background-color: #fff;
+    color: #333;
+}
+ 
